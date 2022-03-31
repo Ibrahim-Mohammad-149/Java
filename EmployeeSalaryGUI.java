@@ -16,6 +16,7 @@ public class EmployeeSalaryGUI {
         frame.setContentPane(new EmployeeSalaryGUI().Main);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         centerFrame(frame);
+        frame.setTitle("Employee Salary");
         frame.pack();
         frame.setVisible(true);
     }

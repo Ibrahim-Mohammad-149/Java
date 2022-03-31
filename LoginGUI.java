@@ -20,6 +20,7 @@ public class LoginGUI {
         frame.setSize(350,200);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.add(panel);
+        frame.setTitle("LoginGUI");
         Dimension d = Toolkit.getDefaultToolkit().getScreenSize();
         int w = frame.getSize().width;
         int h = frame.getSize().height;
